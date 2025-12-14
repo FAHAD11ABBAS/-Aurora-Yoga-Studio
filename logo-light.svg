@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80" width="300" height="80">
+  <!-- Light version logo for dark backgrounds -->
+  <defs>
+    <linearGradient id="gradient-light" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#D4B896;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F5F5F0;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Lotus icon -->
+  <g transform="translate(15, 40)">
+    <!-- Center petal -->
+    <ellipse cx="0" cy="-8" rx="6" ry="14" fill="url(#gradient-light)"/>
+    <!-- Left petal -->
+    <ellipse cx="-10" cy="-5" rx="6" ry="13" fill="#D4B896" transform="rotate(-25 -10 -5)"/>
+    <!-- Right petal -->
+    <ellipse cx="10" cy="-5" rx="6" ry="13" fill="#F5F5F0" transform="rotate(25 10 -5)"/>
+    <!-- Outer left petal -->
+    <ellipse cx="-18" cy="0" rx="5" ry="12" fill="#D4B896" opacity="0.7" transform="rotate(-40 -18 0)"/>
+    <!-- Outer right petal -->
+    <ellipse cx="18" cy="0" rx="5" ry="12" fill="#F5F5F0" opacity="0.7" transform="rotate(40 18 0)"/>
+    <!-- Base -->
+    <path d="M -20 5 Q 0 -2, 20 5" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="60" y="35" font-family="'Cormorant Garamond', serif" font-size="28" font-weight="600" fill="#FFFFFF">
+    Aurora
+  </text>
+  <text x="60" y="55" font-family="'Montserrat', sans-serif" font-size="14" font-weight="400" fill="#D4B896" letter-spacing="2">
+    YOGA STUDIO
+  </text>
+</svg>

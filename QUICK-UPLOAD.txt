@@ -1,0 +1,94 @@
+========================================
+AURORA YOGA STUDIO - QUICK UPLOAD TO GITHUB
+========================================
+
+Copy and paste these commands one by one into your Terminal:
+
+STEP 1: Navigate to project folder
+-----------------------------------
+cd "/Users/s2500260/Desktop/My projects/ Aurora Yoga Studio"
+
+
+STEP 2: Initialize Git
+-----------------------------------
+git init
+
+
+STEP 3: Add all files
+-----------------------------------
+git add .
+
+
+STEP 4: Create commit
+-----------------------------------
+git commit -m "Initial commit: Aurora Yoga Studio complete website"
+
+
+STEP 5: Add remote repository
+-----------------------------------
+git remote add origin https://github.com/FAHAD11ABBAS/-Aurora-Yoga-Studio.git
+
+
+STEP 6: Set branch to main
+-----------------------------------
+git branch -M main
+
+
+STEP 7: Push to GitHub
+-----------------------------------
+git push -u origin main
+
+
+========================================
+IMPORTANT NOTES:
+========================================
+
+1. You'll be asked for credentials:
+   - Username: FAHAD11ABBAS
+   - Password: Use a Personal Access Token (NOT your GitHub password)
+
+2. To get a Personal Access Token:
+   - Go to: https://github.com/settings/tokens
+   - Click "Generate new token (classic)"
+   - Select scope: "repo"
+   - Copy the token and use it as your password
+
+3. If you get "command not found: git":
+   - On Mac: Run this first: xcode-select --install
+   - Or download Git from: https://git-scm.com/downloads
+
+========================================
+ALTERNATIVE: Use the automated script
+========================================
+
+Instead of running commands manually, you can:
+
+1. Open Terminal
+2. Run this command:
+
+chmod +x "/Users/s2500260/Desktop/My projects/ Aurora Yoga Studio/upload-to-github.sh"
+"/Users/s2500260/Desktop/My projects/ Aurora Yoga Studio/upload-to-github.sh"
+
+========================================
+VERIFY UPLOAD
+========================================
+
+After pushing, visit:
+https://github.com/FAHAD11ABBAS/-Aurora-Yoga-Studio
+
+You should see all 17 files uploaded!
+
+========================================
+ENABLE GITHUB PAGES (Make site live)
+========================================
+
+1. Go to: https://github.com/FAHAD11ABBAS/-Aurora-Yoga-Studio/settings/pages
+2. Source: Deploy from a branch
+3. Branch: main / (root)
+4. Click "Save"
+5. Your site will be live at:
+   https://fahad11abbas.github.io/-Aurora-Yoga-Studio/
+
+========================================
+
+Need help? See GITHUB-UPLOAD-GUIDE.md for detailed instructions.
